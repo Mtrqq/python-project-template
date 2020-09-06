@@ -52,7 +52,11 @@ def flake8(session: "nox.Session") -> None:
 def bandit(session: "nox.Session") -> None:
     session.install("bandit")
     session.run(
-        "bandit", "-r", ".", "-c", BANDIT_CONFIGURATION,
+        "bandit",
+        "-r",
+        ".",
+        "-c",
+        BANDIT_CONFIGURATION,
     )
 
 
