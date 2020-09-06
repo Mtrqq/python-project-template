@@ -5,4 +5,6 @@
 
 pytest>=5.4.3:                                  testing
 
+nox>=2020.8.22					dev
+
 
