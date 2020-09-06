@@ -1,0 +1,11 @@
+skips:
+    - B101 # Usage of asserts
+    - B404 # Ignore warnings about importing subprocess
+    - B603 # Subprocess without shell=True
+    - B602 # Subprocess with shell=True
+exclude_dirs:
+    - venv
+    - .venv
+    - .env
+    - .nox
+    - .tox
